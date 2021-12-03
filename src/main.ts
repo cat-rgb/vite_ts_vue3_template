@@ -4,6 +4,7 @@ import router from './router/router'
 import { createPinia } from 'pinia'
 import 'vue-global-api'
 import naive from 'naive-ui'
+
 const app = createApp(App)
 app.use(router)
 app.use(createPinia())
