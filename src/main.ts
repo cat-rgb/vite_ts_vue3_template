@@ -7,6 +7,10 @@ import naive from 'naive-ui'
 const app = createApp(App)
 app.use(router)
 app.use(createPinia())
+
 app.use(naive)
+
+
+
 
 app.mount('#app')
