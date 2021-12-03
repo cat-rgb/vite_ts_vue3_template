@@ -10,5 +10,4 @@ app.use(createPinia())
 
 app.use(naive)
 
-
 app.mount('#app')
