@@ -18,6 +18,13 @@ const update1 = () => {
   mainStore.insertPost('555555555555555')
 }
 console.log(import.meta.env.VITE_APP_WEB_URL)
+
+
+
+
+
+
+
 </script>
 
 <template>
