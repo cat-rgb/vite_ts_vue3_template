@@ -1,17 +1,20 @@
 module.exports = {
-  tabWidth: 2,
-  jsxSingleQuote: true,
-  jsxBracketSameLine: true,
   printWidth: 100,
+  tabWidth: 2,
+  useTabs: false,
+  semi: true,
+  vueIndentScriptAndStyle: false,
   singleQuote: true,
-  semi: false,
-  overrides: [
-    {
-      files: '*.json',
-      options: {
-        printWidth: 200,
-      },
-    },
-  ],
+  quoteProps: 'as-needed',
+  bracketSpacing: true,
+  trailingComma: 'es5',
+  jsxBracketSameLine: false,
+  jsxSingleQuote: false,
   arrowParens: 'always',
-}
+  insertPragma: false,
+  requirePragma: false,
+  proseWrap: 'never',
+  htmlWhitespaceSensitivity: 'strict',
+  endOfLine: 'auto',
+  rangeStart: 0,
+};
